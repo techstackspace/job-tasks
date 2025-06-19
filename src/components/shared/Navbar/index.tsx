@@ -19,7 +19,7 @@ const Navbar = () => {
   ]
 
   return (
-    <header className="bg-[#FFF9F3] p-6 shadow-sm lg:shadow-none">
+    <header className="bg-yellow-100 p-6 shadow-sm lg:shadow-none">
       <div className="mx-auto flex max-w-6xl items-center justify-between">
         <Image
           src="/images/billia-icon.png"
@@ -45,7 +45,7 @@ const Navbar = () => {
 
         {/* Mobile menu toggle */}
         <button
-          className="text-2xl text-gray-700 md:hidden"
+          className="cursor-pointer text-2xl text-gray-700 md:hidden"
           onClick={() => setIsOpen(!isOpen)}
         >
           {isOpen ? <HiX /> : <HiMenu />}

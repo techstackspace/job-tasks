@@ -7,7 +7,7 @@ const testimonials = [
   {
     name: 'Arlene McCoy',
     duration: 'One Year of using Billia',
-    text: 'Before Billia, I always missed my PHCN payment dates. Now I get reminders, and I can repeat past payments without filling forms. It’s efficient, secure, and perfect for people like me who forget easily.',
+    text: "Before Billia, I always missed my PHCN payment dates. Now I get reminders, and I can repeat past payments without filling forms. It's efficient, secure, and perfect for people like me who forget easily.",
     date: '4 June 2025',
     rating: '4.7',
     image: '/images/avatar-arlene.png',
@@ -15,7 +15,7 @@ const testimonials = [
   {
     name: 'Savannah Nguyen',
     duration: 'Six Months of using Billia',
-    text: 'I was surprised how fast wallet funding worked. I transferred from my bank to the Billia virtual account, and the money reflected instantly. I’ve used it to pay my cable and internet bills ever since.',
+    text: "I was surprised how fast wallet funding worked. I transferred from my bank to the Billia virtual account, and the money reflected instantly. I've used it to pay my cable and internet bills ever since.",
     date: '24 April 2025',
     rating: '4.5',
     image: '/images/avatar-savannah.png',
@@ -23,7 +23,7 @@ const testimonials = [
   {
     name: 'Wade Warren',
     duration: 'Two Months of using Billia',
-    text: 'The virtual dollar card helped me subscribe to tools I couldn’t pay for before. Works instantly.',
+    text: "The virtual dollar card helped me subscribe to tools I couldn't pay for before. Works instantly.",
     date: '15 April 2025',
     rating: '4.8',
     image: '/images/avatar-wade.png',
@@ -31,7 +31,7 @@ const testimonials = [
   {
     name: 'Courtney Henry',
     duration: 'Five Months of using Billia',
-    text: 'Love the Billia AI – I literally just tell it to pay my DSTV, and it’s done. No stress at all.',
+    text: "Love the Billia AI – I literally just tell it to pay my DSTV, and it's done. No stress at all.",
     date: '2 May 2025',
     rating: '4.6',
     image: '/images/avatar-courtney.png',
@@ -81,7 +81,7 @@ export default function TestimonialCarousel() {
           {/* Left Arrow */}
           <button
             onClick={handlePrev}
-            className="absolute left-0 z-10 flex h-10 w-10 items-center justify-center rounded-full bg-white text-gray-800 shadow-md"
+            className="absolute left-0 z-10 flex h-10 w-10 cursor-pointer items-center justify-center rounded-full bg-white text-gray-800 shadow-md"
           >
             <Image
               src="/images/arrow-left.svg"
@@ -132,9 +132,13 @@ export default function TestimonialCarousel() {
                           /5.0
                         </p>
                       </div>
-                      <span className="absolute top-6 right-6 text-4xl font-bold text-orange-500">
-                        ”
-                      </span>
+                      <Image
+                        src="/images/quote.svg"
+                        width={24}
+                        height={24}
+                        alt="quote"
+                        className="absolute top-6 right-6"
+                      />
                     </div>
                   ))}
                 </div>
@@ -145,7 +149,7 @@ export default function TestimonialCarousel() {
           {/* Right Arrow */}
           <button
             onClick={handleNext}
-            className="absolute right-0 z-10 flex h-10 w-10 items-center justify-center rounded-full bg-white text-gray-800 shadow-md"
+            className="absolute right-0 z-10 flex h-10 w-10 cursor-pointer items-center justify-center rounded-full bg-white text-gray-800 shadow-md"
           >
             <Image
               src="/images/arrow-left.svg"

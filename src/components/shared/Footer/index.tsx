@@ -32,8 +32,8 @@ const Footer = () => {
             />
             <Image
               src="/images/twitter.svg"
-              width={24}
-              height={24}
+              width={22}
+              height={22}
               alt="facebook icon"
             />
           </div>
@@ -41,7 +41,7 @@ const Footer = () => {
 
         <div className="text-center md:text-left">
           <h5 className="mb-2 font-semibold">Company</h5>
-          <ul className="space-y-1">
+          <ul className="space-y-3">
             <li>
               <a href="#">About Us</a>
             </li>
