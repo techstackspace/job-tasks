@@ -2,7 +2,7 @@
 
 Billia is a smart, all-in-one payment platform built for Nigerians to simplify bill payments, airtime and data top-ups, and virtual dollar card usage — all powered by **Billia AI** for a faster, smarter experience.
 
-[🔗 View Figma Design](https://www.figma.com/design/mgpEXdCBFDCzJ3D9zitzcB/Billia?node-id=822-9382&t=IyrVg2YgixKYFv9u-1)
+[View Figma Design](https://www.figma.com/design/mgpEXdCBFDCzJ3D9zitzcB/Billia?node-id=822-9382&t=IyrVg2YgixKYFv9u-1)
 
 ---
 
@@ -17,7 +17,7 @@ Billia is a smart, all-in-one payment platform built for Nigerians to simplify b
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 .
@@ -42,7 +42,7 @@ Billia is a smart, all-in-one payment platform built for Nigerians to simplify b
 
 ```bash
 git clone https://github.com/techstackspace/job-tasks.git
-cd billia
+cd job-tasks
 ````
 
 ### 2. Install dependencies with Bun
@@ -63,12 +63,12 @@ Open [`http://localhost:3000`](http://localhost:3000) in your browser.
 
 ## Features
 
-* 🌍 **Bill Payments**: Electricity, TV, education, internet, and more
-* 📶 **Airtime & Data Top-up**: Local and global mobile services
-* 💳 **Virtual Dollar Card**: For subscriptions and international purchases
-* 🧠 **Billia AI**: Pay by typing commands, smart repeats, and chat
-* 📲 **Mobile-first Design**: Optimized for all screen sizes
-* ✨ **Figma Accurate**: Developed based on the official Figma file
+* **Bill Payments**: Electricity, TV, education, internet, and more
+* **Airtime & Data Top-up**: Local and global mobile services
+* **Virtual Dollar Card**: For subscriptions and international purchases
+* **Billia AI**: Pay by typing commands, smart repeats, and chat
+* **Mobile-first Design**: Optimized for all screen sizes
+* **Figma Accurate**: Developed based on the official Figma file
 
 ---
 
@@ -95,7 +95,7 @@ NEXT_PUBLIC_ANALYTICS_ID=
 * Icons: Custom + Heroicons
 * Fonts: Geist & Poppins via Google Fonts
 
-## 🚀 Deployment
+## Deployment
 
 Check out the live deployment at [https://job-tasks-drab.vercel.app](https://job-tasks-drab.vercel.app)
 
