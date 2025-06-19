@@ -3,13 +3,12 @@ import Image from 'next/image'
 const Hero = () => {
   return (
     <section className="mx-auto max-w-6xl px-6 text-center">
-      <div className="flex items-center justify-between">
+      <div className="flex flex-wrap items-center justify-center gap-10 py-10 md:gap-5 xl:justify-between xl:gap-5">
         <Image
           src="/images/about-hero.png"
           alt="Hero Woman"
           width={300}
           height={300}
-          className="mb-6 py-8"
         />
         <div>
           <h1 className="mb-4 text-3xl font-bold">

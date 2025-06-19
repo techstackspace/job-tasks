@@ -16,7 +16,7 @@ const Hero = () => {
           Billia lets you pay bills, top up airtime, buy data, and manage your
           wallet — all in one place. Fast. Secure. Reliable.
         </p>
-        <div className="mb-4 flex space-x-4">
+        <div className="mb-4 flex justify-center space-x-4 md:justify-start">
           <Image
             src="/images/google-play-badge.png"
             alt="Google Play"

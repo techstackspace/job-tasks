@@ -17,25 +17,46 @@ const Footer = () => {
             powered by Billia AI.
           </p>
 
-          <div className="mt-5 flex items-center gap-10">
-            <Image
-              src="/images/facebook.svg"
-              width={24}
-              height={24}
-              alt="facebook icon"
-            />
-            <Image
-              src="/images/instagram.svg"
-              width={24}
-              height={24}
-              alt="facebook icon"
-            />
-            <Image
-              src="/images/twitter.svg"
-              width={22}
-              height={22}
-              alt="facebook icon"
-            />
+          <div className="mt-5 flex items-center justify-center gap-10 md:justify-start">
+            <a
+              href="https://facebook.com/techstackmedia"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="Visit TechStack Media on Facebook"
+            >
+              <Image
+                src="/images/facebook.svg"
+                width={24}
+                height={24}
+                alt="facebook icon"
+              />
+            </a>
+            <a
+              href="https://instagram.com/techstackmedia"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="Visit TechStack Media on Instagram"
+            >
+              <Image
+                src="/images/instagram.svg"
+                width={24}
+                height={24}
+                alt="facebook icon"
+              />
+            </a>
+            <a
+              href="https://x.com/techstackmedia"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="Visit TechStack Media on X (Twitter)"
+            >
+              <Image
+                src="/images/twitter.svg"
+                width={22}
+                height={22}
+                alt="X (formerly Twitter) icon"
+              />
+            </a>
           </div>
         </div>
 
@@ -43,7 +64,7 @@ const Footer = () => {
           <h5 className="mb-2 font-semibold">Company</h5>
           <ul className="space-y-3">
             <li>
-              <a href="#">About Us</a>
+              <a href="/about">About Us</a>
             </li>
             <li>
               <a href="#">Features</a>

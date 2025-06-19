@@ -11,7 +11,7 @@ const DownloadCTA = () => {
               Fast payments, smart reminders, and secure wallet tools — all
               inside Billia
             </p>
-            <div className="mb-6 flex items-center space-x-4">
+            <div className="mb-6 flex items-center justify-center space-x-4 md:justify-start">
               <Image
                 src="/images/google-play-badge.png"
                 alt="Google Play"
