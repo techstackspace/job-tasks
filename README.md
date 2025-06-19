@@ -1,36 +1,102 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Billia – All-in-One Payment Platform
+
+Billia is a smart, all-in-one payment platform built for Nigerians to simplify bill payments, airtime and data top-ups, and virtual dollar card usage — all powered by **Billia AI** for a faster, smarter experience.
+
+[🔗 View Figma Design](https://www.figma.com/design/mgpEXdCBFDCzJ3D9zitzcB/Billia?node-id=822-9382&t=IyrVg2YgixKYFv9u-1)
+
+---
+
+## Tech Stack
+
+- **Framework**: [Next.js](https://nextjs.org/) (App Router)
+- **Bundler**: [Bun](https://bun.sh/)
+- **Styling**: [Tailwind CSS](https://tailwindcss.com/)
+- **Fonts**: [Geist](https://vercel.com/font), [Poppins](https://fonts.google.com/specimen/Poppins)
+- **Language**: TypeScript
+- **Deployment**: Vercel (recommended)
+
+---
+
+## 📁 Project Structure
+
+```
+.
+├── public/               # Static assets (images, icons)
+├── src/
+│   ├── app/              # Next.js App Router pages (home, about)
+│   └── components/       # Reusable UI and shared components
+│       ├── shared/       # Layout components like Navbar and Footer
+│       └── ui/           # Page-specific UI components (Home, About)
+├── package.json          # Project dependencies
+├── next.config.ts        # Next.js config
+├── tsconfig.json         # TypeScript config
+└── README.md             # This file
+
+````
+
+---
 
 ## Getting Started
 
-First, run the development server:
+### 1. Clone the repository
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
+git clone https://github.com/techstackspace/job-tasks.git
+cd billia
+````
+
+### 2. Install dependencies with Bun
+
+```bash
+bun install
+```
+
+### 3. Run the development server
+
+```bash
 bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open [`http://localhost:3000`](http://localhost:3000) in your browser.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+---
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## Features
 
-## Learn More
+* 🌍 **Bill Payments**: Electricity, TV, education, internet, and more
+* 📶 **Airtime & Data Top-up**: Local and global mobile services
+* 💳 **Virtual Dollar Card**: For subscriptions and international purchases
+* 🧠 **Billia AI**: Pay by typing commands, smart repeats, and chat
+* 📲 **Mobile-first Design**: Optimized for all screen sizes
+* ✨ **Figma Accurate**: Developed based on the official Figma file
 
-To learn more about Next.js, take a look at the following resources:
+---
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Environment Variables
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+> No sensitive `.env` variables are required for this static demo. However, future versions may include:
 
-## Deploy on Vercel
+```env
+NEXT_PUBLIC_API_BASE_URL=
+NEXT_PUBLIC_ANALYTICS_ID=
+```
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+---
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## Author
+
+**Bello Osagie** – [LinkedIn](https://linkedin.com/in/techstackmedia) • [Twitter](https://twitter.com/techstackmedia)
+
+---
+
+## Credits
+
+* UI Design: [Figma Billia File](https://www.figma.com/design/mgpEXdCBFDCzJ3D9zitzcB/Billia)
+* Icons: Custom + Heroicons
+* Fonts: Geist & Poppins via Google Fonts
+
+## 🚀 Deployment
+
+Check out the live deployment at [https://job-tasks-drab.vercel.app](https://job-tasks-drab.vercel.app)
+
+This project is hosted on [Vercel](https://vercel.com), optimized for seamless deployment of Next.js applications.
